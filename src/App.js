@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import WeatherSearch from "./WeatherSearch";
+import "./WeatherSearch.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Weather App</h1>
+        <WeatherSearch />
       </header>
+      <div class="line"></div>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/shizop"> Syaibatul</a>, is
+          <a href="https://github.com/shizop/weather-app">
+            open-sourced on GitHub
+          </a>{" "}
+          and
+          <a href="https://transcendent-weather.netlify.app">
+            hosted on Netlify
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
