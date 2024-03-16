@@ -13,11 +13,11 @@ function App() {
         <p>
           This project was coded by
           <a href="https://github.com/shizop"> Syaibatul</a>, is
-          <a href="https://github.com/shizop/weather-app">
+          <a href="https://github.com/shizop/weather-app-react">
             open-sourced on GitHub
           </a>{" "}
           and
-          <a href="https://transcendent-weather.netlify.app">
+          <a href="https://unrivaled-cocada-1f007d.netlify.app/">
             hosted on Netlify
           </a>
         </p>
